@@ -33,7 +33,7 @@ def detect_face_cover(image_path):
         
     return result
     
-image_path = 'img.jpg'
+image_path = 'test-images/img.jpg'
 result = detect_face_cover(image_path)
 print(f"The face in the image is {result}.")
 
