@@ -10,6 +10,6 @@ How the model works is as follows:
   1. Pass an image as input
   2. The output returns a matrix of shape (1, 1, 25200, 7)
   3. From that matrix we were able to extract the coordinates, width and height of the bounding box and the confidence of the model
-  4. Then we use OpenCV to draw the bounding box on the image
+  4. Then we use OpenCV to draw the bounding box on the image '\n'
 Now, this is not how the final version of the program will work. We plan to use live footage of a person and take the first frame of their appearance as the input image
 Then we can say whether the person can use the ATM or No
